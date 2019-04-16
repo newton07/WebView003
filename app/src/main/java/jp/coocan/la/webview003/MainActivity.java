@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.setWebViewClient(new WebViewClient());
         mWebView.loadUrl("https://www.yahoo.co.jp/");
-        
     }
 
     @Override
