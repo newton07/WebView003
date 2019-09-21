@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         if(keyCode == KeyEvent.KEYCODE_BACK) {
             if (mWebView.canGoBack()) {
                 mWebView.goBack();
+                return true;
             }
-            return true;
         }
 
         if(keyCode == KeyEvent.KEYCODE_HOME) {
