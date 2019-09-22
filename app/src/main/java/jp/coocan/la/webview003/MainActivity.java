@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         try {
             System.gc();
+            WidgetLog.d("MainActivity", "onDestroy() End!!!");
         } catch (OutOfMemoryError e) {
             e.printStackTrace();
         } catch (Exception e) {
