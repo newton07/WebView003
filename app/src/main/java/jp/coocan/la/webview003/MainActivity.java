@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         mWebView.setWebViewClient(new WebViewClient());
 //        mWebView.loadUrl("https://www.yahoo.co.jp/");
 //        mWebView.loadUrl("https://www.yahoo.co.jp/");
-        mWebView.loadUrl("https://www.amazon.co.jp/");
+        mWebView.loadUrl("https://www.nikkei.com/");
     }
 
     @Override
