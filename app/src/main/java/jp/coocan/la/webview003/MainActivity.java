@@ -69,4 +69,16 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onKeyDown(keyCode,  event);
     }
+
+    //Activity終了
+    protected void onDestroy() {
+        super.onDestroy();
+        try {
+            System.gc();
+        } catch (OutOfMemoryError e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
