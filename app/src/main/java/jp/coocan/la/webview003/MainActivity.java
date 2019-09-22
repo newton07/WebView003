@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mWebView.loadUrl("https://www.nifty.com");
         mWebView.loadUrl("https://twitter.com/home");
         mWebView.loadUrl("https://www.excite.co.jp/");
+        mWebView.loadUrl("https://www.infoseek.co.jp");
     }
 
     @Override
