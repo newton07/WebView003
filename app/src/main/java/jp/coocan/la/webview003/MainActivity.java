@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mWebView.loadUrl("https://www.nikkei.com/");
         mWebView.loadUrl("https://play.google.com/store/apps?hl=ja");
         mWebView.loadUrl("https://www.rakuten.co.jp/");
+        mWebView.loadUrl(" https://www.goo.ne.jp");
     }
 
     @Override
